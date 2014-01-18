@@ -15,10 +15,10 @@
 #
 
 # Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/slim/config/gsm.mk)
 
 # Inherit some common CM stuff
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/huawei/u8951/full_u8951.mk)
@@ -28,7 +28,7 @@ TARGET_SCREEN_HEIGHT := 800
 TARGET_SCREEN_WIDTH := 480
 
 # Device name
-PRODUCT_NAME := cm_u8951
+PRODUCT_NAME := slim_u8951
 PRODUCT_DEVICE := u8951
 
 # CM packages
