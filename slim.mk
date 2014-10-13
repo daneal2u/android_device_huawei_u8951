@@ -33,4 +33,5 @@ PRODUCT_DEVICE := u8951
 
 # CM packages
 PRODUCT_PACKAGES += \
-    Torch
+    Torch \
+    SmartCardService

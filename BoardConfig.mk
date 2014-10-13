@@ -27,3 +27,4 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/u8951/bluetooth
 
 # NFC
 BOARD_HAVE_NFC := true
+BOARD_NFC_HAL_SUFFIX := huawei
