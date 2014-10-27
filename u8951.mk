@@ -22,8 +22,7 @@ PRODUCT_PACKAGES += \
     libnfc_jni \
     Nfc \
     Tag \
-    com.android.nfc_extras \
-    org.simalliance.openmobileapi.service
+    com.android.nfc_extras
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -50,9 +49,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.confg.hw_appfsversion=U8951V4_4_SYSIMG \
     ro.confg.hw_appsbootversion=U8951V4_4_APPSBOOT \
     ro.confg.hw_appversion=U8951V4_4_KERNEL
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.nfc.enabled=true \
-    ro.confg.hw_nfc_cfgversion=110
 
 $(call inherit-product-if-exists, vendor/huawei/u8951/u8951-vendor.mk)
