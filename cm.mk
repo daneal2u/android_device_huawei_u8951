@@ -21,8 +21,8 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/huawei/u8951/full_u8951.mk)
 
 # Correct boot animation size for the screen
-TARGET_SCREEN_HEIGHT := 800
-TARGET_SCREEN_WIDTH := 480
+TARGET_SCREEN_HEIGHT := 960
+TARGET_SCREEN_WIDTH := 540
 
 # Device name
 PRODUCT_NAME := cm_u8951
